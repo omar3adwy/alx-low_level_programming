@@ -1,10 +1,9 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
  * main - entery point
  *
- * Description: print 0-9 using putchar
- *              while using int variable
+ * Description: prints _putchar using putchar prototype
  *
  * Return: Always 0 (success)
 */
