@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * _isupper - check if c is upper
+ * more_numbers - print 0 - 14 ten times and you
+ *		can only use _putchar three times
  *
- * @c: input for alphabet
- *
- * Return: 1 if its uppercase. 0 if not
- */
+ * Return: Always 0 (Success)
+*/
 
-int _isupper(int c)
+void more_numbers(void)
 {
 	int num, row, count;
 
