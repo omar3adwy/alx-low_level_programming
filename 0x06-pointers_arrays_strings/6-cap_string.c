@@ -21,7 +21,7 @@ int isLower(char c)
 int isDelimiter(char c)
 {
 	int i;
-	char delimniter[] = " \t\n,.!?\"()()";
+	char delimniter[] = " \t\n, .!?\"(){}";
 
 	for (i = 0; i < 12; i++)
 		if (c == delimiter[i])
