@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_chessboard - points theseaoard
+ * print_chessboard - points chessboard.
  *
  * @a: revs
  * Return: nothing.
