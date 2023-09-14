@@ -23,7 +23,18 @@ void format_int(char *separator, va_list ap)
 }
 
 /**
- * format_int - formats string
+ * format_float - formats float
+ * @separator: the string separator
+ * @ap: arguments pointer
+ */
+
+void format_float(char *separator, va_list ap)
+{
+	printf("%s%f", separator, va_arg(ap, double));
+}
+
+/**
+ * format_string - formats string
  * @separator: the string separator
  * @ap: arguments pointer
  */
@@ -36,7 +47,7 @@ void format_string(char *separator, va_list ap)
 		case 1;
 			str = "(nil)";
 
-	printf("%s%s", separator, va_arg(ap, int));
+	printf("%s%s", separator, str);
 }
 
 /**
@@ -54,6 +65,7 @@ void print_all(const char * const format, ...)
 		{"i", format_int},
 		{"f", format_float},
 		{"s", format_string},
+		{NULL, NULL}
 	};
 
 	va_start(ap, format);
