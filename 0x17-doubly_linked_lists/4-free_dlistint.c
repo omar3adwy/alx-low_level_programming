@@ -2,7 +2,7 @@
 
 /**
  * free_dlistint - frees a dlist
- * @head:pointer to current head node
+ * @head: pointer to current head node
  *
  * Return: void
  */
