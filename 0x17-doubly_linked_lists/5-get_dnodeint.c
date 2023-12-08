@@ -2,8 +2,8 @@
 
 /**
  * get_dnodeint_at_index - returns node at giver index
- * @head: pointer of node to return
- * #index: address og node at index
+ * @head: pointer to current head node
+ * #index: index of node to return
  *
  * Return: address of node at index
  */
