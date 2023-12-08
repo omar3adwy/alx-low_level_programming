@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * get_dnodeint_at_index - returns node at giver index
+ * get_dnodeint_at_index - returns node at given index
  * @head: pointer to current head node
- * #index: index of node to return
+ * @index: index of node to return
  *
  * Return: address of node at index
  */
