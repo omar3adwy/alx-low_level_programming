@@ -3,7 +3,9 @@
 /**
  * get_dnodeint_at_index - returns node at giver index
  * @head: pointer of node to return
- * #index:address og node at index
+ * #index: address og node at index
+ *
+ * Return: address of node at index
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
@@ -17,4 +19,4 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 		i++;
 	}
 	return (NULL);
-
+}
